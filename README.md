@@ -1,6 +1,6 @@
 # Programming in C.
 
-Chapter 1- Variables,Constants & Keywords
+Chapter 1- Variables,Constants & Keywords \n
 Chapter 2- Instructions & Operators
 Chapter 3- Conditional Instructions
 Chapter 4- Loop Control Instructions
