@@ -2,21 +2,25 @@
 #include <stdio.h>
 
 int main(void) {
-    int tax,income;
+    int income;
     
     printf("Enter your income\n");
     scanf("%d",&income);
     
+    int income_tax1 = income * 5/100;
+    int income_tax2 = income * 20/100;
+    int income_tax3 = income * 30/100;
+    
     if (income > 250000 && income < 500000){
-        printf("Your income is %d and u need to pay 5 percent tax : %d",income,tax);
+        printf("Your income is %d and u need to pay 5 percent tax : %d",income,income_tax1);
     }
     
     else if (income >= 500000 && income < 1000000){
-        printf("Your income is %d and u need to pay 20 percent : %d",income,tax);
+        printf("Your income is %d and u need to pay 20 percent : %d",income,income_tax2);
     }
     
     else if (income > 1000000){
-        printf("Your income is %d and u need to pay 30 percent : %d",income,tax);
+        printf("Your income is %d and u need to pay 30 percent : %d",income,income_tax3);
     }
     
     else {
