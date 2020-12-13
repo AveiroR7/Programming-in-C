@@ -1,4 +1,4 @@
-// WAP containing a function which reverses the array passed to it.
+/// WAP containing a function which reverses the array passed to it.
 #include <stdio.h>
 void reverse(int *arr,int n){
     int temp;
