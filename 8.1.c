@@ -14,11 +14,11 @@ int main(void) {
     
     while(c!='\n'){
         fflush(stdin);
-        scanf("%c", &string2);
+        scanf("%c", &c);
         string2[i] = c;
         i++;
     }
-    string2[i]= '\0';
+    string2[i-1]= '\0';
     
     printf("The values of string 1 is: %s \n", string1);
     printf("The values of string 2 is: %s \n", string2);
