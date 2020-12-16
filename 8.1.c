@@ -11,14 +11,17 @@ int main(void) {
     scanf("%s",string1);
     
     printf("Enter the Second string: \n");
+    
     while(c!='\n'){
         fflush(stdin);
-        scanf("%c",&string2);
-        c= string2[i];
+        scanf("%c", &string2);
+        string2[i] = c;
         i++;
     }
+    string2[i]= '\0';
     
-    printf("The values is: %s",string2);
+    printf("The values of string 1 is: %s \n", string1);
+    printf("The values of string 2 is: %s\ \n", string2);
 	return 0;
 	
 }
