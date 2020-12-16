@@ -21,7 +21,7 @@ int main(void) {
     string2[i]= '\0';
     
     printf("The values of string 1 is: %s \n", string1);
-    printf("The values of string 2 is: %s\ \n", string2);
+    printf("The values of string 2 is: %s \n", string2);
 	return 0;
 	
 }
