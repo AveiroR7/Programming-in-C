@@ -11,6 +11,5 @@ Chapter 8- Strings <br>
 Chapter 9- Structures <br>
 Chapter 10- File I/O <br>
 Chapter 11- Dynamic Memory Allocation <br>
-Project 1- Guess the Number <br>
-Project 2- Snake, Water, Gun <br>
+
 I've added practice codes chapter wise and will be updating more codes and projects soon regarding same. <br>
